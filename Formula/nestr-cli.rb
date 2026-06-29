@@ -6,28 +6,28 @@
 class NestrCli < Formula
   desc "Fast, composable CLI for Nestr — for terminals and agents"
   homepage "https://github.com/nestr-dev/nestr-cli"
-  version "0.2.3"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/nestr-dev/nestr-cli/releases/download/v0.2.3/nestr-0.2.3-aarch64-apple-darwin.tar.gz"
-      sha256 "5a4c4cda049160ae329ce154c18bbb17976171326df1cf11bfc0b8fcafc8e04b"
+      url "https://github.com/nestr-dev/nestr-cli/releases/download/v0.3.0/nestr-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4bb45fde937db047a5b92516f52c968b922ae92cd16c537115a36c44693fb0fe"
     end
     on_intel do
-      url "https://github.com/nestr-dev/nestr-cli/releases/download/v0.2.3/nestr-0.2.3-x86_64-apple-darwin.tar.gz"
-      sha256 "dc2a6e28bb4f66d68e7fd957015d5f7d19fd8ac1ea5afb904cc9e3e9f569a437"
+      url "https://github.com/nestr-dev/nestr-cli/releases/download/v0.3.0/nestr-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "509b14f1791e2f8a1cdb423f81619723d7fab6f76e975825091d3b649627b1e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nestr-dev/nestr-cli/releases/download/v0.2.3/nestr-0.2.3-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e025234cf93f7a62a37becb16c47efb914d9bf22d56329ac529ad58f38c72553"
+      url "https://github.com/nestr-dev/nestr-cli/releases/download/v0.3.0/nestr-0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "54de0011089e5adbc936a9721e0ff31c1a45aae7eb2c79ed7379dd84ef166678"
     end
     on_intel do
-      url "https://github.com/nestr-dev/nestr-cli/releases/download/v0.2.3/nestr-0.2.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "47f8bdd0d1cb899c55b7a4aa69b0fd1c03b89207815de36fc0583dcfdf17961b"
+      url "https://github.com/nestr-dev/nestr-cli/releases/download/v0.3.0/nestr-0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "337d1e64a988f3ed17210b3558b02c6e097e1f44e39260d3aac423917f8f6a8f"
     end
   end
 
